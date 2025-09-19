@@ -83,12 +83,12 @@
     },
     "ADMIN_CONTACT": {
       "description": "type admin contact link",
-      "value": "https://t.me/SRC2026_2",
+      "value": "https://t.me/kingofpatal",
       "required": true
     },
     "JOIN_LINK": {
       "description": "type join channel link which comes on /start",
-      "value": "https://t.me/SRC2026_1",
+      "value": "https://t.me/team_spy_pro",
       "required": true
     }
   },
@@ -98,4 +98,5 @@
   ],
   "stack": "container"
 }
+
 
