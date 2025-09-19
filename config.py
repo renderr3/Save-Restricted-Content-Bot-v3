@@ -31,9 +31,10 @@ IV_KEY = os.getenv("IV_KEY", "s7Yx5CpVmE3F") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
-PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
+PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "5000"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/SRC2026_1") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Aspiranthelper836")
+
 
 
 
