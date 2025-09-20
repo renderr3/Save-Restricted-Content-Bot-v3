@@ -49,7 +49,7 @@ async def send_settings_message(chat_id, user_id):
             Button.inline('❌ Remove Thumbnail', b'remthumb')
         ],
         [
-            Button.url('🆘 Report Errors', 'https://t.me/team_spy_pro')
+            Button.url('🆘 Report Errors', 'https://t.me/Aspiranthelper836')
         ]
     ]
     await gf.send_message(chat_id, MESS, buttons=buttons)
@@ -238,14 +238,14 @@ async def rename_file(file, sender, edit):
         
         last_dot_index = str(file).rfind('.')
         if last_dot_index != -1 and last_dot_index != 0:
-            ggn_ext = str(file)[last_dot_index + 1:]
-            if ggn_ext.isalpha() and len(ggn_ext) <= 9:
-                if ggn_ext.lower() in VIDEO_EXTENSIONS:
+            ezhil_ext = str(file)[last_dot_index + 1:]
+            if ezhil_ext.isalpha() and len(ezhil_ext) <= 9:
+                if ezhil_ext.lower() in VIDEO_EXTENSIONS:
                     original_file_name = str(file)[:last_dot_index]
                     file_extension = 'mp4'
                 else:
                     original_file_name = str(file)[:last_dot_index]
-                    file_extension = ggn_ext
+                    file_extension = ezhil_ext
             else:
                 original_file_name = str(file)[:last_dot_index]
                 file_extension = 'mp4'
@@ -267,3 +267,4 @@ async def rename_file(file, sender, edit):
         print(f"Rename error: {e}")
         return file
         
+
